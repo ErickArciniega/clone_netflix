@@ -1,0 +1,11 @@
+language: node_js
+node_js: "-'8.5.0'"
+deploy:
+  provider: heroku
+  api_key:
+    secure: z9h+wUcbYh5/oV51E+3BJBaZoMf4d2Oi3f7N8vPDqF8FcaZ6aGyKn3+H2FYxmMe9GMDQmGxCzCuREFzfxAkItn51W/4efFR/ktysB0LbDL5bHf9XYYQSoai9pko9a1/UiuWNekgNnn/J0UHDDP0s1nDmDyCzNpOgwSRKozZlEVLoxq6gLuD7IJfzeQqEr782P71BqP+ByN6+DupbDni7+nJq52nyEOjJKRXtBZXFTkTkDUojulLdCGrFzX1PmN061jn1n26Uu6vBRhWckUwR2KCEPUo1yCm0vB2Pdia7hXTRT/mjGIzVju18CE9Te6oouxhplmtPrHQBKCNRwPSxJbKss/AwOqbRRd6wsYMOIkFWz2UtHgxITmU8ULj2WTnkzM5UK+6DoT/S+Bi1vEDOLLgNkP2GpzMg6Kr+GPpJvg/bCZJ87Wiy4Mg989xKmrRueW4Lc2tTU+N4/Kb077PLlaTrDkx5RCS7mQ6IrlR+atYYH2eIziK/+Qkxug7xiWnelKOCEfozUuBVx7BMzrx4onNEOVMs5p7wV8GQAdOHRPzWElQTm2ptSEP6De3TwrtzmGeG/QLw9Q59Aq/qIhFVnahtlKqtf6gVS3tonCioUWN3qa1XnsV/mu5fxF/2U7qG7/d2+h8kfLAy1C8OZHGTrrT9bNJB3TdGa+hxHpvR+rk=
+  app: clonenetflixb21erick
+  on:
+    repo: ErickArciniega/clone_netflix
+    branch: master
+  skip_cleanup: true
