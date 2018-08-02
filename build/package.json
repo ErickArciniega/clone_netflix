@@ -4,9 +4,9 @@
   "description": "Este es un clon de netflix sin fines de lucro",
   "main": "server.js",
   "scripts": {
-    "prebuild":"rm -rf ./build",
-    "build":"babel -d ./build . --ignore node_modules --copy-files",
-    "start":"node ./build/server.js",
+    "prebuild": "rm -rf ./build",
+    "build": "babel -d ./build . --ignore node_modules --copy-files",
+    "start": "node ./build/server.js",
     "server": "nodemon server.js --exec babel-node --presets es2015,stage-2",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
